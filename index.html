@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Educacional Contexto</title>
+    <link rel="stylesheet" href="aCSS.css">
+</head>
+<body>
+    <header>
+        <img id="icon1" src="Y_icon.png" alt="">
+    </header>
+    <section id="login">
+        <div>
+            <p>Login:
+                <input type="text" name="login" id="login">
+            </p>
+            <p>Senha:
+                <input type="password" name="senha" id="senha">
+            </p>
+            <p><input type="checkbox" name="save" id="save">Continuar conectado</p>
+            <p><input type="button" value="Logar" onclick="Login()"></p>
+        </div>
+        <div></div>
+    </section>
+    <section id="infos">
+        <div>
+            <p id="title">Cadastro de Aluno</p>
+            <p>Digite o nome do aluno:
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>Selecione a série:
+                <input type="radio" name="serie" id="a6" checked>
+                <label for="a6">6°ano EF</label>
+                <input type="radio" name="serie" id="a1">
+                <label for="a1">1ªsérie EM</label> <br>
+                <input type="radio" name="serie" id="a7">
+                <label for="a7">7°ano EF</label>
+                <input type="radio" name="serie" id="a2">
+                <label for="a2">2ªsérie EM</label> <br>
+                <input type="radio" name="serie" id="a8">
+                <label for="a8">8°ano EF</label>
+                <input type="radio" name="serie" id="a3">
+                <label for="a3">3ªsérie EM</label> <br>
+                <input type="radio" name="serie" id="a9">
+                <label for="a9">9°ano EF</label>
+                <input type="radio" name="serie" id="a4">
+                <label for="a4">Pré-Vest</label>
+            </p>
+            <p>Digite a disciplina:
+                <input type="text" name="disciplina" id="disciplina">
+            </p>
+            <p>Informação sobre o aluno:
+                <input type="text" name="infoaluno" id="infoaluno">
+            </p>
+            <p>Arquivo:
+                <input type="file" name="file" id="file"></p>
+            <p><input type="button" value="Enter" onclick="Cadastro()"></p>
+        </div>
+        <div></div>
+    </section>
+    <footer>
+        <p>-------  Criador por: Mendes Filho  -------</p>
+    </footer>
+    <script src="ascript.js"></script>
+</body>
+</html>

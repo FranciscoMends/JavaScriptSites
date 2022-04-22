@@ -1,0 +1,56 @@
+body{
+    
+    text-align: center;
+    background-color: rgb(42, 42, 255);
+    color: aliceblue;
+}
+
+header{
+    font: normal 20pt Another Day V2;
+}
+
+section{
+    font: normal 12pt Arial;
+    color: aliceblue;
+    background-color: rgb(0, 0, 134);
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    width: 450px;
+    box-shadow: 5px 7px 5px aliceblue;
+}
+
+footer{
+    margin-top: 30px;
+    font: normal 12pt italic;
+}
+
+
+section#login{
+    margin-top: -35px;
+    width: 250px;
+}
+
+section#infos{
+    margin-top: 40px;
+}
+
+p#title{
+    font: normal 15pt Arial;
+}
+img#icon1{
+    margin-top: -40px;
+}
+input#a7{
+    margin-left: 136px;
+}
+input#a8{
+    margin-left: 136px;
+}
+input#a9{
+    margin-left: 120.3px;
+}
+input#infoaluno{
+    
+    height: 60px;
+}
